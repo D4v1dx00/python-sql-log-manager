@@ -68,4 +68,4 @@ try:
             print("Wrong option")
     conn.close()
 except pyodbc.Error:
-    print("Wrong Database")
+    print("Database connection failed")
